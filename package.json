@@ -1,0 +1,14 @@
+{
+  "name": "docker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "up": "docker compose --env-file .env.local up -d",
+    "down": "docker compose down",
+    "stop": "docker compose stop"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
